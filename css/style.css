@@ -43,47 +43,58 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 
+h1 {
+    padding: 150px 0px 30px 0px;
+    margin: auto;
+    text-align: center;
+}
 
 
 /*----NAV & MENU----*/
 
-body {
+.header_bar {
+    display: flex;
+    justify-content: center;
 }
-
-#co-name {
-    text-align: left;
-    float: left;
-}
-
 
 .menu {
     list-style: none;
     text-align: right;
-    border-bottom: 1 px solid #000000;
+    border-bottom: 1px solid #000000;
     width: 70%;
     z-index: 100;
-    background-color: yellow;
-    position:fixed;
+    position: fixed;
+    background-color: white;
 }
 
 
-li {
+
+#co-name {
+    /*--text-align: left;
+    float: left;-*/
+    position: absolute;
+    left: 100px;
+    top: 30px;
+}
+
+
+
+li.nav {
     display: inline-block;
-    padding: 35px 0px 35px 50px;
+    padding: 35px 0px 35px 40px;
     font-family: 'Nunito Sans', sans-serif;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
   color: grey;
 }
 
 .logo {
     float: left;
     margin-left: 0px;
-    padding: 10px;
+    padding: 20px 0 0 0;
     width: 70px;
-    background-color: pink;
 }
 
 .nav {
@@ -94,3 +105,43 @@ a {
 a:hover {
   color: #89D0E0;
 }
+
+
+
+
+/*----PORTFOLIO----*/
+
+#showcase { 
+    display: flex;
+    justify-content: center; 
+}
+
+
+#work {
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
+    width: 70%;
+}
+
+
+img.portfolio {
+  max-width: 300px;
+  height: auto;
+  border-radius: 0px 25px 0px 25px;
+  padding: 10px;
+}
+
+
+#work:nth-of-type(2n+1) {
+}
+
+
+.overlay-text {
+      font-size: 1em;
+      font-style: italic;
+      font-family: 'Nunito Sans', sans-serif;
+      display: none;
+  }
