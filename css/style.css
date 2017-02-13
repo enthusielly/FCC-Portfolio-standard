@@ -44,14 +44,34 @@ h1, h2, h3, h4, h5, h6, p {
 
 
 h1 {
-    padding: 150px 0px 30px 0px;
+    padding: 200px 0px 0px 0px;
     margin: auto;
     text-align: center;
+    font-size: 1.5em;
 }
+
+h2 {
+    padding: 30px 0px 10px 0px;
+    margin: auto;
+    text-align: center;
+    font-size: 1.5em;
+
+}
+
+
+h3 {
+    padding: 30px 0px 10px 0px;
+    margin: auto;
+    text-align: left;
+    font-size: 1.5em;
+}
+
+
 
 body {
     display: flex;
     flex-direction: column;
+    background-color: #f9f9f9;
 }
 
 /*----NAV & MENU----*/
@@ -64,10 +84,10 @@ body {
 .menu {
     list-style: none;
     text-align: right;
-    width: 70%;
+    width: 1000px;
     z-index: 100;
     position: fixed;
-    background-color: white;
+    background-color: #f9f9f9;
 }
 
 
@@ -100,6 +120,7 @@ a {
     width: 70px;
 }
 
+
 .nav {
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -114,29 +135,31 @@ a:hover {
 
 /*----PORTFOLIO----*/
 
-#showcase { 
+.showcase { 
     display: flex;
     justify-content: center; 
+    background-color: #f9f9f9;
 }
 
 
 #work {
-    padding: 0px;
+    padding: 30px 0px 60px 0px;
     margin: 0px;
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap; 
-    width: 70%;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    max-width: 1000px;
 }
 
 
-img.portfolio {
-  max-width: 330px;
-  height: auto;
+.portfolio {
   border-radius: 0px 25px 0px 25px;
-  padding: 10px;
+  max-width: 33%;
 }
 
+img {
+  width: 100%;
+}
 
 #work:nth-of-type(2n+1) {
 }
@@ -152,29 +175,36 @@ img.portfolio {
 
 
 
+
+
+
 /*----About----*/
 
 #about { 
     display: flex;
     justify-content: center; 
-    background-color: #89D0E0;
 }
 
 .about-box {
-    padding: 60px;
-    margin: 0px;
-    width: 70%;
+    width: 1000px;
     display: flex;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
+    justify-content: space-around; 
+    background-color: #89D0E0;
 }
-.about {
-      max-width: 550px;
+
+.blurb {
+      max-width: 60%;
+      padding-left: 3%;
     }
-.diane {
-      max-width: 330px;
+
+img.diane {
+      height: auto;
       border-radius: 50%;
-      margin: 20px 50px 20px 20px;
       border: solid 5px white;
+      margin: 60px 10px;
+      max-width: 27%;
+      height: auto;
     }
 
 
@@ -182,7 +212,7 @@ img.portfolio {
 
 .contact-box {
     display: flex;
-     flex-direction: column;
+    flex-direction: column;
     background-color: #C8EAF2;
 }
 
@@ -190,15 +220,45 @@ img.portfolio {
     max-width: 40px;
     z-index: 100%;
     padding: 10px;
-
 }
 
 .icons {
    text-align: center;
+   padding: 5px 0 30px 0;
 }
 
 footer {
     text-align: center;
-    background-color: #2AABC9;
+    background-color: #505050;
     padding: 20px 0px;
+    color: white;
+    font-size: .75em;
     }
+
+
+-------------------------------
+:: Slider
+------------------------------- 
+
+.showcase
+#rotator/.rotatorbox
+.flexslider
+.slides
+
+
+
+.rotatorbox {
+
+}
+
+
+.flexslider{
+  max-width: 30%;
+  padding: 0px 0px 60px 0px;
+  margin: 0px;
+  border: none;
+  display: flex;
+  justify-content: center; 
+}
+
+.slides
