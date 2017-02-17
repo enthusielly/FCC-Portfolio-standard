@@ -1,161 +1,105 @@
-/* SMARTPHONE 
-(min-width: 320px) and (max-width: 479px) */
-/* 480px is the breakpoint for smartphones in landscape mode 
+
+/* SMARTPHONE 480px is the breakpoint for smartphones in landscape mode *****************/
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+
+  header {
+  display: flex;
+    justify-content: center;
+    flex-direction: row
+    background-color: #505050;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    z-index: 100%;
+    border-bottom: none;
+
+  }
+
+  .logo {
+      margin-left: 0px;
+      padding: 20px ;
+      width: 55px;
+  }
 
 
-@media screen and (max-width: 480px) {
-	#gallery li {
-	width: 90%;
-	margin: 2.5% auto;
-	display: block;
-	text-align: center;
-	padding: 0px;
+  #co-name {
+      float: right;
+      margin: 30px 0 0 0;
+      padding: 0 0 0 5px;
+  }
+
+
+
+body {display: flex;
+   flex-direction: column;
 }
 
-#logo {
-	margin: 0px auto;
-	height: 40px;
-	text-align: center;
-	}
 
+.menu_mobile {
+  display: flex;
+  position:fixed;
+   left:0px;
+   bottom:0px;
+   height:40px;
+   width:100%;
+   background-color: #505050;
+  }
 
-.first-bio {
-	font-size: .75em;
-	font-weight: 300;
-	font-family: 'Lato', sans-serif;
-	text-align: center;
-	padding: 0px 20px;
+.largescreen, .contact-box {
+  display: none;
+}
+
+li.m_nav {
+    display: inline-block;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 0 10px;
 }
 
 
+a {
+  text-decoration: none;
+  color: grey;
+}
+
+.social{
+    max-width: 25px;
+    z-index: 100%;
+    padding:7px;
+}
+
+footer {
+    text-align: center;
+    background-color: #505050;
+    padding: 5px 0px;
+    z-index: 100%;
+    position: fixed;
+    }
+
+
 }
 
 
 
 
-/*************************************
 
-THIS SECTION FOR TABLET
-
-************************************
-
-
+/****TABLET ***************************/
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
-	
 
-/*#gallery li:nth-of-type(1n+1) {
-	clear: left;
-}*/
-/*
-#gallery li {
-	width: 40%;
-	margin: auto 2.5%;
-	display: block;
-	padding: 0px;
+
 }
 
-#wrapper {
-	margin: auto;
-	display: block;
-	clear: both;
-	}
 
-.first-bio {
-	font-size: 1.25em;
-	font-weight: 300;
-	font-family: 'Lato', sans-serif;
-	text-align: center;
-	padding: 0px 20px;
-}
 
-/*************************************
 
-THIS SECTION FOR TABLET LANDSCAPE
 
-*************************************/
-
-/*
+/****TABLET LANDSCAPE***************************/
 
 @media screen and (max-width: 900px) {
-	
-	/*.album li:nth-of-type(3n+1) {
-	clear: left;
+
+
 }
-	#wrapper {
-	margin: auto;
-	display: block;
-	clear: both;
-	}*/
-/*
-.menu {
-		margin: auto;
-	display: block;
-	clear: both;
-	background-color: red;
-}
-
-#minimenu {
-	text-align: center;
-	background-color: yellow;
-	clear: both;
-		padding: 0px;
-}
-
-#logoname {
-	text-align: center;
-
-li.nav {
-	display: inline-block;
-	padding: 15px 0px;
-}
-}
-}
-
-
-
-
-
-
-
-
-@media screen and (min-width: 768px) {
-
-nav {
-	font-size: 1.125em;
-}
-	/* 
-h1 { 
-	font-size: 2.5em;
-}
-
-h2 {
-	font-size: 1.25em;
-	margin-bottom: 10%;
-}
-
-#gallery li:nth-of-type(4n+1) {
-		clear: left;
-}
-	#wrapper {
-	margin: auto;
-	display: block;
-	clear: both;
-	} */
-
-
-
-
-
-/*************************************
-
-THIS SECTION FOR DESKTOP
-
-/* 660px is the breakpoint for large tablets and normal sized desktops 
-*************************************/
-
-/*
-@media screen and (min-width: 900px){
-
-
-	
