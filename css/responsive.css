@@ -1,105 +1,103 @@
 
 /* SMARTPHONE 480px is the breakpoint for smartphones in landscape mode *****************/
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 768px)
+{
 
 
-/*----Basics------*/
-  header {
-  display: flex;
-    justify-content: center;
-    flex-direction: row
-    background-color: #505050;
-    width: 100%;
-    height: 50px;
-    position: fixed;
-    z-index: 100%;
-    border-bottom: none;
-
-  }
-
-
-  body {display: flex;
-     flex-direction: column;
-  }
+    /*----Basics------*/
+      header {
+      display: flex;
+        justify-content: center;
+        flex-direction: row
+        background-color: #505050;
+        width: 100%;
+        height: 50px;
+        position: fixed;
+        z-index: 100%;
+        border-bottom: none;
+      }
 
 
-  h1 {
-      padding: 100px 0px 0px 0px;
-      margin: auto;
-      text-align: center;
-      font-size: 1.5em;
-  }
+      body {display: flex;
+         flex-direction: column;
+      }
 
 
-  h3 {
-      padding: 10px 0px 10px 0px;
-      margin: auto;
-      text-align: left;
-      font-size: 1.5em;
-  }
+      h1 {
+          padding: 100px 0px 0px 0px;
+          margin: auto;
+          text-align: center;
+          font-size: 1.5em;
+      }
 
 
-  h4 {
-  }
+      h3 {
+          padding: 10px 0px 10px 0px;
+          margin: auto;
+          text-align: left;
+          font-size: 1.5em;
+      }
 
 
-
-/*----Header------*/
-  .logo {
-      margin-left: 0px;
-      padding: 10px 20px 10px 0;
-      width: 55px;
-  }
-
-
-  #co-name {
-      float: right;
-      margin: 25px 0 0 0;
-      padding: 0 0 0 0px;
-
-  }
-
-  .menu {
-    display: flex;
-    justify-content: center;
-    background-color: lightgrey;
-    height: 50px;
-  }
-
-#logoname {
-}
+      h4 {
+      }
 
 
 
-/*----MENU------*/
-.menu_mobile {
-  display: flex;
-  position: fixed;
-  justify-content: space-between;
-   left:0px;
-   bottom:0px;
-   height:40px;
-   width:100%;
-   background-color: #505050;
-  }
+    /*----Header------*/
+      .logo {
+          margin-left: 0px;
+          padding: 10px 20px 10px 0;
+          width: 55px;
+      }
 
-.icons_mobile {
-  padding-right: 40px;
-}
 
-.largescreen, .contact-box {
-  display: none;
-}
+      #co-name {
+          float: right;
+          margin: 25px 0 0 0;
+          padding: 0 0 0 0px;
+      }
 
-li.m_nav {
-    display: inline-block;
-    font-family: 'Nunito Sans', sans-serif;
-    font-size: .85em;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    padding: 0 5px;
-}
+      .menu {
+        display: flex;
+        justify-content: center;
+        height: 50px;
+      }
+
+    #logoname {
+    }
+
+
+
+    /*----MENU------*/
+    .menu_mobile {
+      display: flex;
+      position: fixed;
+      justify-content: space-between;
+       left:0px;
+       bottom:0px;
+       height:40px;
+       width:100%;
+       background-color: #505050;
+      }
+
+    .icons_mobile {
+      padding-right: 40px;
+    }
+
+    .largescreen, .contact-box {
+      display: none;
+    }
+
+    li.m_nav {
+        display: inline-block;
+        font-family: 'Muli', sans-serif;
+        font-size: .75em;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        padding: 0 5px;
+    }
 
 
 a {
@@ -115,83 +113,80 @@ a {
     }
 
 
-.social:hover{
-  background-color: white;
-  border-radius: 50%;
-}
-
-
-
-footer {
-    text-align: center;
-    background-color: #505050;
-    padding: 5px 0px;
-    z-index: 100%;
-    position: fixed;
-    }
-
-
-/*----About----*/
-
-.about-box {
-    width: 100%;
-    background-color: #C8EAF2;
-}
-
-img.diane {
+    .social:hover{
+      background-color: white;
       border-radius: 50%;
-      border: solid 5px white;
-      margin: 20px 10% -70px 50%;
-      max-width: 60%;
-      z-index: 100%;
     }
 
 
-.blurb {
-      max-width: 80%;
-      padding-bottom: 100px;
-      z-index: 50%;
 
+    footer {
+        text-align: center;
+        background-color: #505050;
+        padding: 5px 0px;
+        z-index: 100%;
+        position: fixed;
+        height: 150px;
+        }
+
+
+    /*----About----*/
+
+    .about-box {
+        width: 100%;
     }
 
-.profile {
-
-}
-#about {
-}
-
-
-}
-
+    img.diane {
+          border-radius: 50%;
+          border: solid 5px white;
+          margin: -100px 0 0 0;
+          max-width: 60%;
+          z-index: 100%;
+        }
 
 
+    .blurb {
+          max-width: 80%;
+          padding-bottom: 100px;
+          z-index: 50%;
+        }
 
-/*----PORTFOLIO----*/
-
-.showcase {
-    display: flex;
-    justify-content: column;
-    background-color: #f9f9f9;
-}
-
-
-#work {
-    padding: 30px 0px 60px 0px;
-    margin: 0px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    background-color: #f9f9f9;
-}
+    .profile {
+    }
 
 
-.portfolio {
-  max-width: 320px;
-  padding-bottom: 10px;
-}
+    #about {
+    }
 
-img {
-  width: 100%;
+
+    /*----PORTFOLIO----*/
+
+    .showcase {
+        display: flex;
+        justify-content: column;
+    }
+
+
+    #work {
+        padding: 30px 0px 60px 0px;
+        margin: 0px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+
+    .portfolio {
+      max-width: 320px;
+      padding-bottom: 10px;
+    }
+
+    img {
+      width: 100%;
+    }
+
+
+
 }
 
 

@@ -36,14 +36,7 @@
 
 /*----BASICS ----
 logo blue is 89D0E0
-pale version is #f3fafb
-darker logo blue #7bbbc9
-even darker lobo blue #6da6b3
 font-family: 'Muli', sans-serif;
-orange: #fcc02a
-dark grey: #7b8f8e
-light blue: #cde0df
-blue grey #dae1e1
 */
 
 
@@ -61,7 +54,6 @@ h1 {
     text-align: center;
     font-size: 1.5em;
     font-weight: 300;
-    color: #7bbbc9;
 }
 
 h2 {
@@ -70,7 +62,7 @@ h2 {
     text-align: center;
     font-size: 1.5em;
     font-weight: 300;
-    color: #7bbbc9;
+
 }
 
 
@@ -80,7 +72,6 @@ h3 {
     text-align: left;
     font-size: 1.5em;
     font-weight: 300;
-    color: #7bbbc9;
 
 }
 
@@ -92,14 +83,14 @@ h5 {
     text-align: center;
     font-size: .85em;
     text-transform: uppercase;
-    letter-spacing: 1px;
-
+    color: #505050 ;
+    letter-spacing: 1.5px;
 }
 
 body {
     display: flex;
     flex-direction: column;
-    background-color: white;
+    background-color: #f9f9f9;
 }
 
 
@@ -107,8 +98,8 @@ body {
 header {
 display: flex;
   justify-content: center;
-  flex-direction: row;
-  background-color: white;
+  flex-direction: row
+  background-color: pink;
   width: 100%;
   height: 120px;
   position: fixed;
@@ -125,7 +116,7 @@ display: flex;
 .menu {
     list-style: none;
     text-align: right;
-    background-color: white
+    background-color: #f9f9f9;
     justify-content: space-around;
     width: 1000px;
 }
@@ -165,7 +156,7 @@ a {
 
 
 a:hover {
-  color: #fcc02a;
+  color: #89D0E0;
 }
 
 li.nav:hover {
@@ -177,6 +168,7 @@ li.nav:hover {
 .showcase {
     display: flex;
     justify-content: center;
+    background-color: #f9f9f9;
 }
 
 
@@ -187,12 +179,12 @@ li.nav:hover {
     flex-wrap: wrap;
     justify-content: space-between;
     max-width: 1000px;
+    background-color: #f9f9f9;
 }
 
 .portfolio {
   text-align: center;
-max-width: 30%;
-background-color: white;
+  background-color: pink;
 }
 
 
@@ -246,10 +238,8 @@ align-items: center;
   text-align: left;
 }
 
-img.sample {
-max-width: 100%;
-border: solid lightgrey 1px;
-
+.sample {
+border: solid red 1px;
 }
 
 /*----About--#89D0E0--*/
@@ -257,7 +247,7 @@ border: solid lightgrey 1px;
 #about {
     display: flex;
     justify-content: center;
-    background-color: #f3fafb;
+    background-color: lightgrey;
 }
 
 .about-box {
@@ -284,13 +274,10 @@ img.diane {
 
 /*----CONTACT----*/
 
-.grey {
-  color: #7b8f8e;
-}
 .contact-box {
     display: flex;
     flex-direction: column;
-    background-color: #dae1e1;
+    background-color: #C8EAF2;
 }
 
 .social{
@@ -301,7 +288,7 @@ img.diane {
 }
 
 .social:hover{
-  background-color: #fcc02a;
+  background-color: white;
   border-radius: 50%;
 }
 
